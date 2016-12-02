@@ -17,11 +17,14 @@ namespace FixSystem
         protected void btnLogin_Click(object sender, EventArgs e)
         {
             th.ac.psu.passport.Authentication authen = new th.ac.psu.passport.Authentication();
-            string[] result = authen.GetUserDetails("5730213008", "kung&te091238");
+            string[] result = authen.GetUserDetails(txtID.Text,txtPassword.Text);
             foreach (string s in result)
             {
                 string a = s;
                 Label3.Text = "Login Complete";
+                Response.Redirect("FixTests/Create"); //ลิ้งไปยังหน้าอื่น
+                //or
+               /* Server.Transfer("Create.cshtml");*/
             }
         }
     }

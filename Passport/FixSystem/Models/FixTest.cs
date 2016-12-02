@@ -8,7 +8,7 @@ namespace FixSystem.Models
 {
     public class FixTest
     {
-        [Key]
+       
         public int id { get; set; }
 
         public string Building { get; set; }
