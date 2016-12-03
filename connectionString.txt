@@ -1,6 +1,6 @@
 <connectionStrings>
     <add name="SchoolContext" connectionString=
-//เอาบรรทัดนี้ไปใช้//"Server=tcp:fixing-system.database.windows.net,1433;Initial Catalog=fixing-system;Persist Security Info=False;User ID=sasipa;Password=sasipa1150.;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+//เอาบรรทัดนี้ไปใช้//"Server=tcp:fixing-system.database.windows.net,1433;Initial Catalog=dbfixsys;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
  providerName="System.Data.SqlClient" 
 />
 </connectionStrings>

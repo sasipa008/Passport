@@ -120,8 +120,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BuildingsController.cs" />
+    <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\FixTestsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NewRoomsController.cs" />
+    <Compile Include="Controllers\RoomsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -132,8 +136,21 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612030531338_InitialCreate.cs" />
+    <Compile Include="Migrations\201612030531338_InitialCreate.Designer.cs">
+      <DependentUpon>201612030531338_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612030542478_Initial.cs" />
+    <Compile Include="Migrations\201612030542478_Initial.Designer.cs">
+      <DependentUpon>201612030542478_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Building.cs" />
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\FixSystemContext.cs" />
     <Compile Include="Models\FixTest.cs" />
+    <Compile Include="Models\NewRoom.cs" />
+    <Compile Include="Models\Room.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -170,6 +187,26 @@
     <Content Include="Views\FixTests\Details.cshtml" />
     <Content Include="Views\FixTests\Edit.cshtml" />
     <Content Include="Views\FixTests\Index.cshtml" />
+    <Content Include="Views\Employees\Create.cshtml" />
+    <Content Include="Views\Employees\Delete.cshtml" />
+    <Content Include="Views\Employees\Details.cshtml" />
+    <Content Include="Views\Employees\Edit.cshtml" />
+    <Content Include="Views\Employees\Index.cshtml" />
+    <Content Include="Views\Rooms\Create.cshtml" />
+    <Content Include="Views\Rooms\Delete.cshtml" />
+    <Content Include="Views\Rooms\Details.cshtml" />
+    <Content Include="Views\Rooms\Edit.cshtml" />
+    <Content Include="Views\Rooms\Index.cshtml" />
+    <Content Include="Views\Buildings\Create.cshtml" />
+    <Content Include="Views\Buildings\Delete.cshtml" />
+    <Content Include="Views\Buildings\Details.cshtml" />
+    <Content Include="Views\Buildings\Edit.cshtml" />
+    <Content Include="Views\Buildings\Index.cshtml" />
+    <Content Include="Views\NewRooms\Create.cshtml" />
+    <Content Include="Views\NewRooms\Delete.cshtml" />
+    <Content Include="Views\NewRooms\Details.cshtml" />
+    <Content Include="Views\NewRooms\Edit.cshtml" />
+    <Content Include="Views\NewRooms\Index.cshtml" />
     <None Include="Web References\th.ac.psu.passport\authentication.disco" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -222,6 +259,14 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>FixSystem_th_ac_psu_passport_Authentication</CachedSettingsPropName>
     </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201612030531338_InitialCreate.resx">
+      <DependentUpon>201612030531338_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612030542478_Initial.resx">
+      <DependentUpon>201612030542478_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

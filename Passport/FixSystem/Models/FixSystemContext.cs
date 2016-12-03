@@ -20,5 +20,13 @@ namespace FixSystem.Models
         }
 
         public System.Data.Entity.DbSet<FixSystem.Models.FixTest> FixTests { get; set; }
+
+        public System.Data.Entity.DbSet<FixSystem.Models.Employee> Employees { get; set; }
+
+        public System.Data.Entity.DbSet<FixSystem.Models.Room> Rooms { get; set; }
+
+        public System.Data.Entity.DbSet<FixSystem.Models.Building> Buildings { get; set; }
+
+        public System.Data.Entity.DbSet<FixSystem.Models.NewRoom> NewRooms { get; set; }
     }
 }

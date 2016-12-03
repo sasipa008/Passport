@@ -26,4 +26,6 @@ C:\Users\5730213008\Desktop\Passport\Passport\FixSystem\bin\EntityFramework.dll
 C:\Users\5730213008\Desktop\Passport\Passport\FixSystem\bin\EntityFramework.SqlServer.dll
 C:\Users\5730213008\Desktop\Passport\Passport\FixSystem\bin\EntityFramework.xml
 C:\Users\5730213008\Desktop\Passport\Passport\FixSystem\bin\EntityFramework.SqlServer.xml
-C:\Users\5730213008\Desktop\Passport\Passport\FixSystem\obj\Debug\FixSystem.csprojResolveAssemblyReference.cache
+C:\Users\5730213008\Desktop\Passport\Passport\FixSystem\obj\Debug\FixSystem.Migrations.InitialCreate.resources
+C:\Users\5730213008\Desktop\Passport\Passport\FixSystem\obj\Debug\FixSystem.csproj.GenerateResource.Cache
+C:\Users\5730213008\Desktop\Passport\Passport\FixSystem\obj\Debug\FixSystem.Migrations.Initial.resources
